@@ -4,7 +4,7 @@ import markdown
 
 def display_help():
     print("Usage: python3 file-converter.py markdown <input file> <output file>")
-    print("Converts the input .md file to the output .html file")
+    print("Converts the input .md file to the output .html file.")
     sys.exit(1)
 
 if len(sys.argv) < 4:
